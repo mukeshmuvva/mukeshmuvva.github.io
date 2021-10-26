@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Muvva Mukesh</title>
+<style>
+body {
+  margin: 0;
+  
+}
+
+.A{
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  width:100%;
+  bottom: 55%;
+  background-color:#9dc0d7;
+  text-align: center;
+  color:#3A4145;
+  margin-bottom:-1%;
+}
+.B{
+  position: fixed;
+  left:0;
+  top:45%;
+  width:20%;
+}
+.C{
+  position:absolute;
+  left:20%;
+  top:45%;
+  width:50%;
+  color:#3a4145;
+  font-size:x-large;
+  margin-bottom:6%;
+  text-align:justify;
+}
+.D{
+  position: fixed;
+  left:72%;
+  top:45%;
+  width:30%;
+}
+.footer{
+  position: absolute;
+    left: 0;
+    bottom: 0;
+    right:0;
+    padding: 1.5%;
+    width: 100%;
+    background-color: #9dc0d7;
+}
+
+ul{
+  list-style-type: none;
+  background-color: white;
+  overflow: auto;
+  font-size:x-large
+}
+li a.active {
+  background-color: white;
+  color:#007199;
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+  color: blue;
+}
+.mukku-image{
+  width:175px;
+  height:175px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding:.5rem;
+  border:none;
+  max-width: 100%;
+  margin-top:1%;
+}
+.mukku-text{
+  margin:0;
+  padding:0;
+}
+.contacts{
+  font-size:large;
+}
+.mukku-fa{
+  font-size: xx-large;
+}
+a.mukku-link-font{
+  font-size:x-large;
+  color:#3a4145;
+}
+a{
+  text-decoration:none;
+  color:#3a4145;
+}
+table,tr,td{
+  border:1px solid black;
+}
+</style>
+</head>
+<body>
+  <div class="A">
+    <img class="mukku-image" src="Photo.jpg"></img>
+    <h1 class="mukku-text">Muvva Mukesh</h1>
+    <h2 class="mukku-text-part2">Coder, Electronics Engineer, Former full stack developer at pratian technologies, Nerd, Collects Vocabulary, <br/>Proud KLUIAN and charger</h2>
+  </div>
+  <div class="B">
+    <ul> 
+        <li><a  href="#Home" onclick="Insert('Home')">Home</a></li>
+        <li><a href="#tech_stack" onclick="Insert('Tech_Stack')">Tech Stack</a></li>
+        <li><a href="#Grades" onclick="Insert('Education')">Education</a></li>
+        <li><a href="#Projects" onclick="Insert('Projects')">Projects</a></li>
+    </ul>
+  </div>
+  <div class="C" id="replace">
+    <div id="home">
+    <h4>About Me</h4>
+    <p>Hi, Thanks to you for coming here. I'm Indian born and bred. I am so passionate in coding, Electronics and communication systems, and vocabulary collection.
+      During my first year of undergraduation, I got acquinted with "Problem solving through programming" course, with this course I have realized the power of programming how it is changing 
+      the things across the world. So, I always try to solve more problems with the help of programming. For me programming improves my thinking capability and cognitive skills. Being studied electronics and communication engineering for four years made me to have propensity towards
+      circuits. I love to do things which were of hybrid combintion between programming and electronics. After completion of my undergraduation I took full stack developer job role at pratian techonogies. After solving more and more problems I have found data science is the real way to help people. so, that's why I choose to do masters in data science.
+    </p> 
+  </div>
+  <div id="tech_stack", style="display: none;">
+    <h4>Tech Stack</h4>
+    <table>
+      <tr>
+        <td>Programming Languages</td>
+        <td>C,C#,Java,SQL,TSQL,Python</td>
+      </tr>
+      <tr>
+        <td>Web technologies</td>
+        <td>HTML5, CSS3, JavaScript, JQuery, BootStrap</td>
+      </tr>
+      <tr>
+        <td>Operating systems</td>
+        <td>Windows 7,8,10</td>
+      </tr>
+      <tr>
+        <td>Tools/IDE</td>
+        <td>Eclipse, Visual Studio, Matlab, TFS, github</td>
+      </tr>
+      <tr>
+        <td>Framework</td>
+        <td>Entity Framework, MVC, WCF, Angular, ASP.NET</td>
+      </tr>
+    </table> 
+  </div>
+  <div id="education" style="display: none;">
+    <h4>Educational Qualifications</h4>
+    <dl>
+      <dt><b>10th standard</b></dt>
+      <dd>Srujana English Medium High School, Madhira</dd>
+      <dd>CGPA: 8.5/10</dd>
+      <dt><b>Intermediate</b></dt>
+      <dd>Narayana Junior College, Gollapudi, Vijayawada</dd>
+      <dd>CGPA:9.59/10</dd>
+      <dt><b>Undergraduation</b></dt>
+      <dd>KL University</dd>
+      <dd>CGPA:9.09/10</dd>
+  </dl>
+</div>
+<div id="project" style="display: none;"> 
+    <h4>Projects Executed</h4>
+    <h4><b>1. Case Management:</b></h4>
+    <p>Case Management is an application used by case managers which helps insurance companies                                    
+      and IPA’s by controlling the health care expenditures of chronic diseased patients by tracking them and conducting assessments to them.</p>
+      <p>In this project I have worked on 5 modules completely from front-end to back-end the modules           I have worked are<br/>
+        1) Creating an episode for patient <br/>
+        2) Creating an Assessment Platform <br/>
+        3) Editing an episode of patient  <br/>
+        4) CRUD operations on Notes, Contacts, Attachments of a patient <br/>
+        5) CRUD operations on Drugs, System Identified Problems and Diseases of a patient <br/>
+        </p>
+        <table>
+          <tr>
+            <td><b>Role</b></td>
+            <td>Full Stack Developer</td>
+          </tr>
+          <tr>
+            <td><b>Team Size</b></td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td><b>Tech. Stacks</b></td>
+            <td>Angular, C#, EF, HTML5, CSS3, Bootstrap, JavaScript, jQuery, SQL SERVER</td>
+          </tr>
+
+        </table>
+        <h4><b>2. Case Management:</b></h4>
+    <p>Pratian Technologies India Pvt Ltd would like to develop an application, which helps insurance company to process the claims submitted by health care providers there by making a decision on the claims based on the benefit or coverage requirements i.e. part of different validation checks<br/>
+      1.  Validation Tool
+      In this module plan can see the Number of claims can see the status of the claim and can filter the category of the plans.
+      
+        </p>
+        <table>
+          <tr>
+            <td><b>Role</b></td>
+            <td>Full Stack Developer</td>
+          </tr>
+          <tr>
+            <td><b>Team Size</b></td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td><b>Tech. Stacks</b></td>
+            <td>Angular, C#, EF, HTML5, CSS3, Bootstrap, JavaScript, jQuery, SQL SERVER</td>
+          </tr>
+
+        </table>
+  </div>
+</div>
+ <div class="D">
+    <div class="contacts" style="color:#3a4145">
+      <h2>Contact</h2>
+          <div>
+            <i class="fa fa-twitter-square mukku-fa"></i>
+            <a href="https://twitter.com/mukeshmuvva" class="mukku-link-font" target="_blank">twitter</a>
+          </div>
+          <div>
+            <i class="fa fa-facebook-square mukku-fa"></i>
+            <a href="https://www.facebook.com/mukesh.muvva.1" class="mukku-link-font" target="_blank">facebook</a>
+          </div>
+          <div>
+            <i class="fa fa-github-square mukku-fa"></i>
+            <a href="https://www.github.com/mukeshmuvva" class="mukku-link-font" target="_blank">github</a>
+          </div>
+          <div>
+            <i class="fa fa-linkedin-square mukku-fa"></i>
+            <a href="https://in.linkedin.com/in/mukesh-muvva-321b19169" class="mukku-link-font" target="_blank">Linkedin</a>
+          </div>
+          <div>
+            <i class="fa fa-instagram mukku-fa"></i>
+            <a href="https://www.instagram.com/mukeshmuvva99/" class="mukku-link-font" target="_blank">instagram</a>
+          </div>
+        
+    </div>
+  </div>
+  
+</body>
+</html>
+<script>
+     function Insert(variable)
+     {
+       console.log(variable);
+       if(variable=='Tech_Stack')
+       {
+       document.getElementById('home').style.display="none"
+       document.getElementById('tech_stack').style.display="block"
+       document.getElementById('education').style.display="none"
+       document.getElementById('project').style.display="none"
+       }
+       else if(variable=='Home')
+       {
+       document.getElementById('home').style.display="block"
+       document.getElementById('tech_stack').style.display="none"
+       document.getElementById('education').style.display="none"
+       document.getElementById('project').style.display="none"
+       }
+       else if(variable=='Education')
+       {
+       document.getElementById('home').style.display="none"
+       document.getElementById('tech_stack').style.display="none"
+       document.getElementById('education').style.display="block"
+       document.getElementById('project').style.display="none"
+       }
+       else if(variable=='Projects')
+       {
+       document.getElementById('home').style.display="none"
+       document.getElementById('tech_stack').style.display="none"
+       document.getElementById('education').style.display="none"
+       document.getElementById('project').style.display="block"
+       }
+     }
+</script>
